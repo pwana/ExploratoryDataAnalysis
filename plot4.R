@@ -39,7 +39,7 @@ plot(as.POSIXct(index),data.df$Sub_metering_1, type = 'l',
 ylab = "Energy sub metering",xlab="")
 lines(as.POSIXct(index),data.df$Sub_metering_2,col="red")
 lines(as.POSIXct(index),data.df$Sub_metering_3,col="blue")
-legend("topright", cex=0.8, lwd =1, bty = "n", col = c("black","red","blue"),
+legend("topright", lwd =1, bty = "n", col = c("black","red","blue"),
 legend = c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 #power
